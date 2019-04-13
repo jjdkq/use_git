@@ -1,3 +1,3 @@
-¿ÉÒÔÊ¹ÓÃgit clone https://github.com/jjdkq/tq2440.git½«github²Ö¿âÖĞµÄÄÚÈİ¿ËÂ¡µ½±¾µØÎÄ¼ş¼Ğ
+å¯ä»¥ä½¿ç”¨git clone https://github.com/jjdkq/tq2440.gitå°†githubä»“åº“ä¸­çš„å†…å®¹å…‹éš†åˆ°æœ¬åœ°æ–‡ä»¶å¤¹(cloneä¹‹åçš„URLå¯ä»¥åœ¨githubä»“åº“çš„"Clone or download"ä¸­æ‰¾åˆ°
 tq2440-driver
 
