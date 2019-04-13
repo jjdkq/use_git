@@ -1,4 +1,4 @@
-可以使用git clone https://github.com/jjdkq/tq2440.git将github仓库中的内容克隆到本地文件夹(clone之后的URL可以在github仓库的"Clone or download"中找到
-git无法添加空文件夹
-tq2440-driver
+1. 可以使用git clone https://github.com/jjdkq/tq2440.git将github仓库中的内容克隆到本地文件夹(clone之后的URL可以在github仓库的"Clone or download"中找到；
+2. git无法添加空文件夹；
+3一个仓库重命名之后，git不能在里面添加或者删除文件，解决方法暂未找到！
 
