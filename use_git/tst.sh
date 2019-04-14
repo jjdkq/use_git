@@ -16,9 +16,13 @@ git rm --cached text.txt		#删除github仓库中的text.txt文件,注意:--cache
 
 git commit -m "first commit"	#将改动提交到版本库
 #添加远程库(origin之后的内容是github中项目库的URL<可以在项目库页面的"Clone or download"中找到)
-git remote add origin https://github.com/jjdkq/tq2440-driver.git
-#将origin主机的master主机与当前分之合并
+git remote add origin https://github.com/jjdkq/tq2440.git
+
+#下面两句用于设置要克隆的github仓库的具体文件
+git config core.sparsecheckout true
+echo "d" >> .git/info/sparse-checkout		#克隆d文件夹
+#将github仓库中的d文件夹克隆到当前文件夹下(如果没有前面两句的话则是克隆github仓库的所有文件到当前文件夹下)
 git pull origin master
+
 #将文件上传到github
 git push -u origin master
-
