@@ -16,7 +16,7 @@ git init						#创建一个版本库(会生成.git文件夹)
 git add d/text.txt					#添加d/text.txt
 git commit -m "first commit"	#将改动提交到版本库
 #添加远程库(origin之后的内容是github中项目库的URL<可以在项目库页面的"Clone or download"中找到)
-git remote add origin https://github.com/jjdkq/tq2440.git
+git remote add origin https://github.com/jjdkq/use_git.git
 
 #下面两句用于设置要克隆的github仓库的具体文件
 git config core.sparsecheckout true
