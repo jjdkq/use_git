@@ -6,6 +6,7 @@
 #########################################################################
 #!/bin/bash
 
+rm -r .git
 git init						#创建一个版本库(会生成.git文件夹)
 git rm -rf --cached driver/IO*	#删除github仓库中的driver/IO*文件夹,注意:--cached不能省略
 git rm --cached text.txt		#删除github仓库中的text.txt文件,注意:--cached不能省略
