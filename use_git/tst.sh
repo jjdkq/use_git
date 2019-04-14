@@ -15,7 +15,7 @@ git rm --cached text.txt		#删除github仓库中的text.txt文件,注意:--cache
 #echo tq2440-driver >> text.txt
 #git add text.txt				#将text.txt添加到github仓库
 #git add b c            #将b、c两个文件夹添加到github仓库
-#git add d/tst.txt			#将d文件夹下的tst.txt文件添加到github仓库
+#git add d/text.txt			#将d文件夹下的text.txt文件添加到github仓库
 
 git commit -m "first commit"	#将改动提交到版本库
 #添加远程库(origin之后的内容是github中项目库的URL<可以在项目库页面的"Clone or download"中找到)
